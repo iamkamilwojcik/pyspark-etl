@@ -1,5 +1,5 @@
 # pyspark-etl
-Repository contains sample ETL project written in py-spark. 
+Repository contains sample ETL project written in pyspark. 
 
 ## Prerequisites
 1. Install Apache Spark for development purposes on your local box. [Installation steps](https://github.com/iamkamilwojcik/big-data-vagrant/blob/master/docs/spark_windows_setup.md) for Microsoft Windows 10 Professional.
