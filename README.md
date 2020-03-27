@@ -10,7 +10,7 @@ Repository contains sample ETL project written in pyspark.
 1. Create virtual environment using pipenv.
 1. Open console and type ```pipenv install``` to install required dependencies listed in pipfile.
 1. To run ```template.py``` job on your local box navigate to ```/jobs/template.py``` and run the script. 
-### spark-submit
+### Spark-submit
 1. Navigate to the root directory of pyspark-etl project.
 1. Run```python build-dependencies.py``` to build job dependencies. It should create ```packages.zip``` file that contains all libraries installed to your virtual environment, base and utils catalog from pyspark-etl project. 
 1. Use spark-submit command to send ```template.py``` job to remote cluster:   
